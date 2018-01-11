@@ -1,0 +1,512 @@
+header > .container{
+	margin-top: 30px;
+}
+/* .newsH1 > i{
+	color: white;
+	background-color: #48b996;
+	padding-left: 8px;
+	padding-right: 8px;
+} */
+
+.phone > div {
+	display: inline-block;
+}
+.telNum{
+	font-weight: 600;
+	font-size:25px;
+	font-family: 'Oxygen', sans-serif;
+}
+.icons{
+	margin-top:-10px;
+	margin-left: 10px;
+	width: 40px;
+}
+.clock{
+	margin-top: -20px;
+	margin-right: 10px;
+}
+#times{
+	display: inline-block;
+}
+.btn1{
+	background-color:#b31919 ;
+	color:white;
+	margin: 5px;
+	width: 100%;
+	display:block;
+	font-size: 18px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.btn1:hover{
+	color:white;
+	background-color:red;
+	box-shadow: 0px 0px 20px red;
+}
+#mineMenu{
+	margin:10px 0;
+	border:1px solid #7a0202;
+	background-color:#b31919 ;
+	overflow: hidden;
+}
+
+#menu > li{
+	width: initial;
+	text-align: center;
+	font-size:17px;
+	padding-right: 10px;
+}
+#menu > li:hover {
+	opacity: 0.8;
+}
+#menu li a{
+	color: white;
+}
+#search{
+	background-color: white;
+	height: 40px;
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: 40px;
+}
+#search > *{
+	border:none;
+	background-color: white;
+	margin-top: 10px;
+}
+#search > input{
+	text-indent: 15px;
+	width: 250px;
+}
+#search > input:focus, #search > button:focus{
+	outline:none;
+}
+#search > button{
+	border-left: 1px solid #b31919 ;
+}
+.slideText{
+	top: 20px;
+	right:50px;
+	text-align: right;
+}
+.slideP{
+	font-size: 30px;
+	margin-bottom: 30px;
+	color:#b31919 ;
+}
+.slideH1{
+	font-size: 35px;
+	font-weight: bolder;
+	color:#b31919 ;
+}
+.btn2{
+	background-color:#b31919 ;
+	color:white;
+	width: 30%;
+	font-weight: bold;
+	display:block;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top:70px;
+	float:right;
+	transition: 0.2s;
+}
+.btn2:hover{
+	color:white;
+	background-color:red;
+	box-shadow: 0px 0px 20px red;
+}
+.carousel-indicators{
+	bottom: 10px;
+}
+#myCarousel{
+	border: 1px solid #b31919 ;
+}
+.carousel-indicators   li{
+	border-radius: 20px;
+	border: 1px solid #b31919 ;
+	background-color: white;
+	width: 13px;
+	height: 13px;
+	margin:3px;
+}
+.carousel-indicators .active{
+	background-color:  #b31919 ;
+	width: 13px;
+	height: 13px;
+	margin:3px;
+}
+.content1{
+	margin-top:20px;
+}
+.line{
+	border-bottom: 1px solid  #b31919 ;
+	margin-top:20px;
+}
+.text{
+	color:#b31919 ;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.about{
+	margin-top:30px;
+	font-size:18px;
+	text-align: justify;
+}
+.redText{
+	font-size:25px;
+	font-weight: bold;
+	color:#b31919 ;
+}
+.redText + sup{
+	font-size:15px;
+	font-weight: bold;
+	color:#b31919 ;
+}
+.homes{
+	text-align: center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.homes > div div:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.blackText{
+	font-size:18px;
+	font-weight: bold;
+}
+#calc{
+	margin:3px;
+}
+.btn3{
+	background-color:#b31919 ;
+	color:white;
+	width: 30%;
+	font-weight: bold;
+	display:block;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top:70px;
+	transition: 0.2s;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn3:hover{
+	color:white;
+	background-color:red;
+	box-shadow: 0px 0px 20px red;
+}
+.imgCont sup {
+	color:black;
+	font-size:12px;
+}
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #ffffff00;
+  height: 40px;
+  width : 40px;
+  top:200px;
+  color: #b31919 ;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #ffffff00;
+  height: 40px;
+  width : 40px;
+  top:200px;
+  color: #b31919 ;
+}
+.media-carousel img{
+  width: 100%;
+  border:1px solid #b31919 ;
+  border-radius: 10px;
+}
+
+/* End carousel */
+
+.block1, .block2, .block3, .block4{
+	text-align: center;
+	overflow: hidden;
+	margin-left: 27px;
+
+	width: 30%;
+}
+
+
+.btn4{
+	background-color:#b31919 ;
+	color:white;
+	width: 20%;
+	font-weight: bold;
+	display:block;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top:20px;
+	transition: 0.2s;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn4:hover{
+	color:white;
+	background-color:red;
+	box-shadow: 0px 0px 20px red;
+}
+.content2{
+	margin-top:30px;
+}
+.info{
+	margin-top: 50px;
+}
+.info a {
+	color:red;
+	text-decoration: underline;
+}
+.info > .row{
+	margin-bottom:40px;
+}
+.info img{
+	margin-right:20px;
+	border-radius: 10px;
+	border:1px solid #b31919 ;
+}
+.info .redText{
+	font-size:20px;
+}
+.info .blackText{
+	font-size:16px;
+}
+
+
+footer{
+	background-color: black;
+	color:white;
+	padding: 10px;
+}
+footer .icons{
+	width:40px;
+	margin-left: 0;
+}
+footer .telNum{
+	font-size:18px;
+}
+.geoMsg{
+	margin-top:60px;
+}
+.soc{
+	margin-top:60px;
+}
+.soc img:hover{
+	opacity: 0.8;
+	cursor: pointer
+
+}
+.block1:hover, .block2:hover,.block3:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+/* Media Query */
+
+
+
+@media all and (max-width: 1100px) {
+	.carousel-indicators{
+		bottom: 0px;
+	}
+   .slideText{
+	   top:5px;
+	   font-size:18px;
+   }
+   .btn2{
+	   margin-top:10px;
+   }
+   .btn1{
+	font-size: 15px;
+	
+	}
+}
+
+
+@media all and (max-width: 995px) {
+	.item  > div > div{
+		width: 70%;
+		margin:50px auto;
+	}
+	.slideH1{
+		font-size:25px;
+	}
+	.slideP{
+		font-size:20px;
+	}
+	header{
+		text-align: center;
+	}
+	header div{
+		margin:10px;
+	}
+	.btn2{
+		margin-top:10px;
+		font-size: 15px;
+	}
+	.btn3{
+		width: 40%;
+		font-size: 15px;
+	}
+	.homes div{
+		margin:40px;
+	}
+	.btn1{
+		width: 50%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	
+	.btn4{
+		width: 40%;
+	}
+	.info .row div{
+		margin-bottom:20px;
+		text-align: center;
+	}
+	footer{
+		text-align: center
+	}
+}
+
+
+
+
+@media all and (max-width: 770px) {
+	.slideH1{
+		font-size:18px;
+	}
+	.slideP{
+		font-size:15px;
+	}
+	.btn2{
+		margin-top:5px;
+		font-size: 12px;
+	}
+	.block2, .block3{
+		display: none;
+	}
+	.block1{
+		width: 80%;
+	}
+	.media-carousel .carousel-control.left , .media-carousel .carousel-control.right
+	{
+	  top:350px;
+	}
+	#glav{
+		display: none;
+	}
+	#search {
+		width:80%;
+	}
+	#search > input{
+		width:85%;
+	}
+	#search > button{
+		float: right;
+	}
+	.info img{
+		height: 250px;
+	}
+	.homes div{
+		margin:0;
+	}
+}
+@media all and (max-width: 650px) {
+	.slideH1{
+		font-size:15px;
+	}
+	.slideP{
+		font-size:12px;
+	}
+
+}
+@media all and (max-width: 550px) {
+	.slideH1{
+		font-size:15px;
+		margin-top:0;
+	}
+	.slideP{
+		font-size:12px;
+	}
+	.btn2{
+		margin-top:0;
+		font-size: 10px;
+	}
+}
+@media all and (max-width: 350px) {
+	.media-carousel .carousel-control.left , .media-carousel .carousel-control.right
+	{
+	  top:200px;
+	}
+	.telNum{
+		font-size: 15px;
+		margin:10px;
+	}
+	.slideH1{
+		font-size:15px;
+		margin-top:0;
+	}
+	.slideP{
+		font-size:12px;
+	}
+	
+	.btn4{
+		font-size: 10px;
+		width: 80%;
+	}
+	.btn3{
+		font-size: 12px;
+		width: 100%;
+	}
+	.slideText{
+		margin-top:0;
+		padding-top:0;
+	}
+	.slideH1{
+		font-size:10px;
+		margin-bottom:0;
+		
+	}
+	.slideP{
+		font-size:8px;
+		margin-bottom:0;
+	}
+	.btn2{
+		margin-top:3px;
+		font-size: 10px;
+		width: 50%;
+		padding:5px;
+	}
+	
+}
+
+
+
+
+
+
